@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+venv/
+.env
+
+# AI & Temp files
+temp_images/
+projects/*/images/
+projects/*/summary.md
+projects/*/script.json
+# 保留 projects 目录本身但忽略内容
+!projects/.gitkeep
+
+# Node.js
+node_modules/
+.next/
+out/
+build/
+.npm
