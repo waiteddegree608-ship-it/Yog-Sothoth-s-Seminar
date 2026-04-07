@@ -1,5 +1,6 @@
 # Yog-Sothoth's Seminar: 犹格索托斯的组会
 
+![示例图](0cf238d38644ef6887863f88ff0d82cd.png)
 ## 1. 项目概述 (Project Overview)
 
 和员工一起开组会！耶耶龙带你读论文www
