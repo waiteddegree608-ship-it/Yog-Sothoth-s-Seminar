@@ -33,7 +33,10 @@ def main():
     print("=> 正在创建 Commit...")
     run_cmd(f'git commit -m "{commit_msg}"')
 
-    # 4. 推送到远程
+    # 4. 解决云端和本地的差异并推送到远程
+    print("\n=> 正在拉取远程最新代码以防冲突 (git pull)...")
+    run_cmd("git pull origin main --rebase")
+
     print("\n=> 正在推送到 GitHub 远程仓库...")
     success = run_cmd("git push origin main")
     if not success:
