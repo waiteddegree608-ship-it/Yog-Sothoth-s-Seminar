@@ -10,12 +10,17 @@ export interface DialogueLine {
 export interface PaperAnalysisResponse {
   title: string;
   script: DialogueLine[];
+  char_id?: string;
+  project_id?: string;
+  outfit?: string;
 }
 
 export interface ProjectInfo {
   id: string;
   title: string;
   cover: string;
+  char_id?: string;
+  outfit?: string;
 }
 
 export interface GameSettings {

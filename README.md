@@ -41,7 +41,7 @@ pip install fastapi uvicorn PyMuPDF openai python-dotenv google-genai
 ### 2. 前端依赖
 确保你已经安装了 Node.js。
 ```bash
-cd yog-sothoths-seminar-frontend # 或者您的前端目录
+cd paper2galgame-main
 npm install
 ```
 
@@ -67,7 +67,7 @@ python main.py
 ```
 **启动前端游戏引擎**：
 ```bash
-cd yog-sothoths-seminar-frontend # 或者您的前端目录
+cd paper2galgame-main
 npm run dev
 # 浏览器访问 http://localhost:3000
 ```
